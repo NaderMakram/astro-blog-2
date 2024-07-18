@@ -2,9 +2,9 @@
 title: البوست الاول
 description: Lorem ipsum dolor sit amet
 pubDate: Jul 08 2022
-heroImage: /blog-placeholder-3.jpg
 date: 2024-07-18T13:57:00.000Z
 thumbnail: /images/prts_logo.jpg
+heroImage: /images/aswathy-n-jt-ruto2sfs-unsplash.jpg
 rating: 3
 ---
 
