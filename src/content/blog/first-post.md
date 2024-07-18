@@ -8,3 +8,5 @@ thumbnail: https://plus.unsplash.com/premium_photo-1686090449200-57266c6623a6?q=
 rating: 3
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada n
+
+![](/public/prts_logo.jpg)
