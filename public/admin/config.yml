@@ -5,8 +5,6 @@ backend:
 media_folder: "images" # Location where files will be stored in the repo
 
 collections:
-
-collections:
   - name: blog_posts
     label: Blog Posts
     folder: "src/content/blog" # The path to the folder where the documents are stored
