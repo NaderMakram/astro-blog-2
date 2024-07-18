@@ -5,17 +5,31 @@ backend:
 media_folder: "images" # Location where files will be stored in the repo
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog..
-    label: "Blog" # Used in the UI
-    folder: "src/content/blog" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields for each document, usually in frontmatter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "thumbnail", widget: "image" }
-      - { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  - name: blog_posts
+    label: Blog Posts
+    description: Collection for managing blog posts in Decap CMS
+    files: blog_posts
+    fields:
+      - name: title
+        type: string
+        label: Title
+        description: The main title of the blog post
+      - name: description
+        type: string
+        label: Description
+        description: A brief summary of the blog post
+      - name: pubDate
+        type: date
+        label: Publication Date
+        description: The date the blog post was published
+      - name: heroImage
+        type: string
+        label: Hero Image
+        description: Path to the hero image for the blog post
+      - name: content
+        type: markdown
+        label: Content
+        description: The main content of the blog post in Markdown format
 
-public_folder: "public/images" # The src attribute for uploaded media
+public_folder: "public/" # The src attribute for uploaded media
 site_url: https://astro-blog-22.netlify.app
