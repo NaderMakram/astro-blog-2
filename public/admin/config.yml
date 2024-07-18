@@ -5,11 +5,10 @@ backend:
 media_folder: "images" # Location where files will be stored in the repo
 
 collections:
-  - name: blog_posts
+  - name: blog
     label: Blog Posts
     folder: "src/content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    files: blog_posts
     fields: # The fields for each document, usually in frontmatter
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Title", name: "title", widget: "string" }
